@@ -7,6 +7,10 @@ public boolean cigarParty(int cigars, boolean isWeekend)
 		return (cigars >= 40);
 	return (cigars >= 40 && cigars <= 60);
 }
+public boolean less20(int n) {
+  if(n%20==18||n%20==19) return true;
+  return false;
+}
 
 
 // You and your date are trying to get a table at a restaurant. The parameter "you" is the stylishness of
