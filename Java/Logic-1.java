@@ -314,6 +314,16 @@ public int numOfDigits(int num)
 	return count;
 }
 
+public boolean less20(int n) {
+  if(n%20==18||n%20==19) return true;
+  return false;
+}
+
+public boolean more20(int n) {
+  if(n%20==1||n%20==2) return true;
+  return false;
+}
+
 
 
 
